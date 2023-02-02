@@ -2,14 +2,14 @@
 from tkinter import *
 
 
-#  # pack
-# root = Tk()
-# # creating a label widget
-# myLabel = Label(root, text="Hello word!")
-# # making it show on the screen
-# myLabel.pack()
-# # calling the loop
-# root.mainloop()
+ # pack
+root = Tk()
+# creating a label widget
+myLabel = Label(root, text="Hello word!")
+# making it show on the screen
+myLabel.pack()
+# calling the loop
+root.mainloop()
 
 
 
