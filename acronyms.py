@@ -1,16 +1,17 @@
 
 
-#
-# def acronyms():
-#     word = str(input("Enter The Words: "))
-#     text = word.split()
-#     a = " "
-#     for i in text:
-#         a = a+str(i[0]).upper()
-#     print(a)
-#
-#
-# acronyms()
+
+def acronyms():
+    
+    word = str(input("Enter The Words: "))
+    text = word.split()
+    a = " "
+    for i in text:
+        a = a+str(i[0]).upper()
+        print(a)
+
+
+acronyms()
 
 
 
