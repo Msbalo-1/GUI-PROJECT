@@ -24,10 +24,10 @@ from tkinter import *
 # # entry.insert(0, "enter your name")
 #
 #
-# def myClick():
-#     hello = "Hello " + entry.get()
-#     myLabel = Label(root, text=hello)
-#     myLabel.pack()
+def myClick():
+     hello = "Hello " + entry.get()
+     myLabel = Label(root, text=hello)
+     myLabel.pack()
 #
 #
 # myButton = Button(root, command=myClick, text="click me", fg="red", bg="yellow")
