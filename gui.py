@@ -18,10 +18,10 @@ from tkinter import *
 # # root.mainloop()
 #
 #
-# root = Tk()
-# entry = Entry(root, width=50, borderwidth=5)
-# entry.pack()
-# # entry.insert(0, "enter your name")
+ root = Tk()
+ entry = Entry(root, width=50, borderwidth=5)
+ entry.pack()
+  entry.insert(0, "enter your name")
 #
 #
 def myClick():
@@ -30,8 +30,8 @@ def myClick():
      myLabel.pack()
 #
 #
-# myButton = Button(root, command=myClick, text="click me", fg="red", bg="yellow")
-# myButton.pack()
+ myButton = Button(root, command=myClick, text="click me", fg="red", bg="yellow")
+ myButton.pack()
 #
 # root.mainloop()
 #
