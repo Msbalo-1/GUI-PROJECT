@@ -32,8 +32,8 @@ def myClick():
 #
  myButton = Button(root, command=myClick, text="click me", fg="red", bg="yellow")
  myButton.pack()
-#
-# root.mainloop()
+
+ root.mainloop()
 #
 #
 # #  # pack
@@ -189,7 +189,7 @@ button_subtract.grid(row=6, column=2)
 
 
 button = Button(root, text="my click", bg="red", fg="green")
-# button.grid()
+ button.grid()
 
 
 root.mainloop()
