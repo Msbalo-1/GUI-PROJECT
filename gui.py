@@ -1,9 +1,9 @@
 from tkinter import *
 #
-# # root = Tk()
+root = Tk()
 # #
-# # myLabel = Label(root, text="ms is a good boy")
-# # myLabel.grid()
+myLabel = Label(root, text="ms is a good boy")
+myLabel.grid()
 # #
 # #
 # # root.mainloop()
